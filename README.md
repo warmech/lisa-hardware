@@ -28,3 +28,7 @@ For the riser cards that flip the CPU and I/O cards over by 90 degrees, there is
 ## Drop-In ATX PSU Replacement
 
 The Lisa's PSU is, if unmaintained, virtually unreparable at this point if any of a few issues are encountered. Certain components in the crowbar circuit, the relay used to soft-power-up the system, the main transformer itself, and some of the transistors are no longer manufactured and next to impossible to locate replacements for. This PCB aims to be a drop-in replacement for the original PSU and uses as many off-the-shelf components as possible. Eventually, I'd like to return to this once my knowledge of PSU design has matured a bit and put together a much less overkill (and better) approach.
+
+## 4MB RAM Modification
+
+This modification does not require the production of any additional hardware and, as such, only instructional documentation is included in this element's sub-directory. 
