@@ -8,6 +8,8 @@ The following sections provide detail for the elements this project aims to eith
 
 ## CPU Card
 
+NOTE: This card has been confirmed to boot successfully into LOS. LisaTest, however, reports an issue with the error logic. This is currently being investigated and this disclaimer will be updated when resolved.
+
 The Lisa 2's CPU hardware is contained on a single dedicated PCB in the card stack. This card contains sub-sections responsible for the following aspects of the Lisa 2:
 
 - The CPU itself;
