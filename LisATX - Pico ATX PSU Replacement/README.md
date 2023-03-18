@@ -1,8 +1,6 @@
 # Drop-In ATX PSU Replacement
 
-![](docs/images/psu_front.png)
-![](docs/images/psu_back.png)
-![](docs/images/psu.png)
+![](docs/images/psu.jpg)
 
 This PCB aims to serve as a replacement for the aging 1.2A Lisa PSU and uses as many off the shelf components as possible; the three main components (the +12V primary PSU, the Pico ATX secondary PSU, and the buck-boost convertor for the +33V rail), for instance, are all easily obtained on Amazon. The original 1.2A power supply uses a number of components that are becoming increasingly difficult to obtain, namely:
 
@@ -31,6 +29,9 @@ The following components/parts are required and may be divided into two types: n
 - 1 - 3-Pin Molex Connector
 
 Of the above components, R1-R7, Q2, the 3-Pin Molex connector, and the interlock switch may be recycled from a 1.2A Lisa PSU. If you plan on using the interlock switch, it is highly recommended that you recycle the one from your original PSU; this is due to the lack of comparable replacements that have the exact same form factor. The model linked to in the BOM is a close match, but is not intended for right angle mounting; regardless, it can be secured in place via the mounting holes and connected to the appropriate pads via wire jumpers. Additionally, unless you have Molex connector assembly tools, it is also recommended that you recycle the Molex power connector.
+
+![](docs/images/psu_front.png)
+![](docs/images/psu_back.png)
 
 NOTE: When selecting a Pico ATX PSU, be mindful to select one whose output is capable of meeting the peak draw indicated in the Lisa Hardware Manual:
 
