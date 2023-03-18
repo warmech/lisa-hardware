@@ -1,11 +1,11 @@
 # Drop-In ATX PSU Replacement
 
-![](docs/images/psu.jpg)
-
 This PCB aims to serve as a replacement for the aging 1.2A Lisa PSU and uses as many off the shelf components as possible; the three main components (the +12V primary PSU, the Pico ATX secondary PSU, and the buck-boost convertor for the +33V rail), for instance, are all easily obtained on Amazon. The original 1.2A power supply uses a number of components that are becoming increasingly difficult to obtain, namely:
 
 - The solid state optoelectronic relay used to switch on power in the PSU (these are next to impossible to source at a reasonable price)
 - The main transformer (which had failed in one of mine; as it is unique to the Lisa PSU, it's literally unobtainable unless scavenging from another 1.2A Lisa PSU)
+
+![](docs/images/psu.jpg)
 
 The following components/parts are required and may be divided into two types: new components/parts and parts which may otherwise be recycled from an original PSU. The complete BOM is as follows (all resistors 1/4 watt):
 
