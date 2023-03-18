@@ -1,5 +1,9 @@
 # Drop-In ATX PSU Replacement
 
+![](docs/images/psu_front.png)
+![](docs/images/psu_back.png)
+![](docs/images/psu.png)
+
 This PCB aims to serve as a replacement for the aging 1.2A Lisa PSU and uses as many off the shelf components as possible; the three main components (the +12V primary PSU, the Pico ATX secondary PSU, and the buck-boost convertor for the +33V rail), for instance, are all easily obtained on Amazon. The original 1.2A power supply uses a number of components that are becoming increasingly difficult to obtain, namely:
 
 - The solid state optoelectronic relay used to switch on power in the PSU (these are next to impossible to source at a reasonable price)
@@ -53,7 +57,7 @@ The following instructions will guide you through the process of installing an A
 
 6. Loosely insert the Pico ATX PSU into its connector (soldered down in step 1). Once inserted, measure the approximate distance between the power and ground connection on the Pico and their corresponding terminals on the S-180-12. Once measured, cut lengths of either 12 or 14 gauge wire that are slightly longer than the approximte length measured previously. Strip and tin one end of each wire; for the other end of each wire, strip the end and crimp an appropriately sized spade terminal that will fit the screw terminal on the S-180-12. Once the terminals have been affixed, solder the tinned ends into their corresponding pads on the Pico ATX PSU and then connect the spade terminals to their corresponding connections on the S-180-12 screw terminal. Firmly press the Pico to completely seat in in its connector.
 
-7. Measure the approximate distance between the Live (L), Neutral (N), and Frame Ground (FG) pads next tot he Molex power connector and their corresponding terminals on the S-180-12. Once measured, cut lengths of either 12 or 14 gauge wire that are slightly longer than the approximte length measured previously. Strip and tin one end of each wire; for the other end of each wire, strip the end and crimp an appropriately sized spade terminal that will fit the screw terminal on the S-180-12. Once the terminals have been affixed, solder the tinned ends into their corresponding AC input pads and then connect the spade terminals to their corresponding connections on the S-180-12 screw terminal.
+7. Measure the approximate distance between the Live (L), Neutral (N), and Frame Ground (FG) pads next to the Molex power connector and their corresponding terminals on the S-180-12. Once measured, cut lengths of either 12 or 14 gauge wire that are slightly longer than the approximte length measured previously. Strip and tin one end of each wire; for the other end of each wire, strip the end and crimp an appropriately sized spade terminal that will fit the screw terminal on the S-180-12. Once the terminals have been affixed, solder the tinned ends into their corresponding AC input pads and then connect the spade terminals to their corresponding connections on the S-180-12 screw terminal.
 
 8. Install the 40mm fan into the 3D-printed fan mount using #4-40 x 3/4" round head machine screws and nuts in their respective captive sockets. Ensure the air output side of the fan is facing the side of the mount with the #4-40 nuts. Once installed, attach the mount to the PCB with #4-40 x 3/8" round head machine screws and nuts in their respective captive slots. Ensure that the air output side of the fan is facing the case exterior. Once installed, solder the fan's power and ground wires to the appropriate connections to the right of the fan mount in the "Fan Power" pads.
 
