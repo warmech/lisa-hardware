@@ -25,7 +25,7 @@ The CPU card interfaces with the system bus via a 120-pin card edge connector wh
 
 ## 2MB SIMM-Based RAM Card
 
-This is a reproduction of the Sun Remarketing 2MB RAM card.
+This is a reproduction of the Sun Remarketing 2MB RAM card; as of late October 2023, it appears that this card is now generally unobtainable. This card allows one to forego the use of 4164 or 41256 DRAM ICs and instead opt for much cheaper and more commonly available 256Kx9 (parity) SIMMs. One may also use 1MB SIMMs if 256Kx9 are unavailable; instructions for this process may be found in this project's readme. Additionally, this project corrects some net errors present in some production runs of the OEM card; further information may be found in the readme as well. The eventual goal of this project is to produce two further designs: first, a GAL-based condensing of controller logic to reduce the number of 74-series ICs and, second, an eventual CPLD-based replacement for the entirety of the controller logic.
 
 ## LRambo OEM 512K RAM Card Modification / AST Ramstack Clone
 
