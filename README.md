@@ -25,6 +25,8 @@ The CPU card interfaces with the system bus via a 120-pin card edge connector wh
 
 ## 2MB SIMM-Based RAM Card
 
+This is a reproduction of the Sun Remarketing 2MB RAM card.
+
 ## LRambo OEM 512K RAM Card Modification / AST Ramstack Clone
 
 ## Diagnostic Cards
